@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* .App {
+  height: 100vh;
+  background: #dce3ea;
+  padding-top: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+* .App .task-item {
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.6);
+  transition: 0.2s;
+}
+* .App .task-item:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=index.css.map */
